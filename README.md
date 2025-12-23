@@ -1,4 +1,4 @@
-# # 🚀 desperta-dev-java
+# # 🚀 desperta-dev-java-poo
 
 **Do zero ao avançado em Java: Programação Modular, SOLID e Padrões de Projeto**
 
