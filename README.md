@@ -9,7 +9,9 @@
 
 Este repositório acompanha minha jornada completa de aprendizagem e desenvolvimento em **Java**, reunindo estudos, exemplos práticos, exercícios, projetos guiados e material de apoio que vão desde o **Java Básico** até os conteúdos mais estruturados de **Programação Modular, Princípios SOLID e Padrões de Projeto (GoF)**.
 
----
+-------------------------------------------------------------------
+A lista completa dos exercicios está no arquvio Lista-POO-JAVA.pdf
+-------------------------------------------------------------------
 
 ## 📘 Objetivos do Repositório
 
