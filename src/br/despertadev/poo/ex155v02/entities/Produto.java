@@ -2,9 +2,9 @@ package br.despertadev.poo.ex155v02.entities;
 
 public class Produto {
 
-    public String nome;
-    public Double preco;
-    public Integer quantidade;
+    private String nome;
+    private Double preco;
+    private Integer quantidade;
 
     public Produto(Integer quantidade) {
         this.quantidade = quantidade;
