@@ -12,10 +12,9 @@ import java.util.Scanner;
 public class NomeString {
 
     static void main() {
-        //Cria um objeto sc da classe Scanner para fazer a leitura de dados do Teclado
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); //Cria um objeto sc da classe Scanner para fazer a leitura de dados do Teclado
         System.out.println("Entre com um nome:");
-        String nome = sc.next();
+        String nome = sc.nextLine(); //nextLine() lê o texto até a quebra de linha, já a funcao next() lê até o espaço
         System.out.println("O nome digitado foi: " + nome);
         sc.close(); // Encerra o Objeto sc da classe Scanner
     }

@@ -7,12 +7,17 @@
 
 package br.despertadev.estruturasequencial;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class NumeroReal {
+    /*OBS: Bastante atenção com valores reais (double) em Java, pois a depender da localidade do
+    Sistema Operacional(no caso do Brasil) o separador  de casas decimais é a virgula (,), para
+    manter o separador ponto (.) é necessártio setar a localidade US.
+    * */
     static void main() {
-        //Cria um objeto sc da classe Scanner para fazer a leitura de dados do Teclado
-        Scanner sc = new Scanner(System.in);
+        Locale.setDefault(Locale.US); //Serve para setar a Localização como EUA.
+        Scanner sc = new Scanner(System.in); //Cria um objeto sc da classe Scanner para fazer a leitura de dados do Teclado
         System.out.println("Entre com um número Real");
         double real = sc.nextDouble(); //Em Java os números reais ou fracionarios são anotados como double
         System.out.println("O número digitado foi: " + real);
